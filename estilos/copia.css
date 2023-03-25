@@ -98,9 +98,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header {
     height: 60vh !important;
     background: url(/img/pexels-rene-asmussen-1327430.jpg) no-repeat center;
     background-size: cover;
