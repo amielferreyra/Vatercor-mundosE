@@ -11,7 +11,42 @@ body {
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
+/*general*/
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23vh;
+}
+
+/*encabezado*/
 .head{
     display: flex;
     align-items: center;
@@ -52,6 +87,13 @@ body {
     background: #7c7c7c;
 }
 
+.imglogo{
+    max-width: 130px;
+    filter: invert();
+}
+/*fin encabezado*/
+
+/*inicio*/
 .header {
     display: flex;
     justify-content: center;
@@ -60,7 +102,7 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url(//img/pexels-rene-asmussen-1327430.jpg) no-repeat center;
+    background: url(/img/pexels-rene-asmussen-1327430.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -72,23 +114,6 @@ body {
     color: #fff;
 }
 
-p{
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #fff;
-    padding: 0 100px;
-}
-
-.btn{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color: #fff;
-    text-decoration: none;
-    background: #9c27b0;
-}
-
 .btn-home {
     display: flex;
 }
@@ -96,47 +121,25 @@ p{
 .btn-home a{
     margin: 0 10px;
 }
+/*fin inicio*/
 
-.btn:hover{
-    background: none;
-}
-
-.content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 23vh;
-}
-
+/*productos*/
 .sau {
     padding: 23vh;
     background: #1f1d1d;
 }
+/*fin productos*/
 
+/*nosotros*/
 .about {
-    background: url(//img/pexels-rodnae-productions-8197225.jpg) no-repeat center;
+    background: url(/img/pexels-rodnae-productions-8197225.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
 }
+/*fin nosotros*/
 
-.contact {
-    padding-top: 20px;
-    background: #101010;
-    padding-top: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.imglogo{
-    max-width: 130px;
-    filter: invert();
-}
-
+/*contacto*/
 .contact-wrapper{
     max-width: 1170px;
     margin-left: auto;
@@ -171,15 +174,15 @@ ul {
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0;
+    margin: 1rem;
+    padding-top: 2rem;
 }
 
 .contact-form form .block {
     grid-column: 1 / 3;
 }
 
-.contact-form form {
-    margin: 0;
-}
 
 .contact-form form button,
 .contact-form form input,
@@ -214,12 +217,6 @@ ul {
     border: 1px solid #9c27b0;
 }
 
-
-.contact-form form {
-    margin: 1rem;
-    padding-top: 2rem;
-}
-
 .contact-info {
     background-color: #000;
     margin-left: 1rem;
@@ -240,11 +237,7 @@ ul {
     padding: 1rem;
 }
 
-.contact-info ul {
-    list-style: none;
-}
-
 .imagen { 
     max-width: 300px;
 }
-
+/*fin contacto*/
