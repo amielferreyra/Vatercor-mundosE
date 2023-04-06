@@ -37,6 +37,10 @@ p {
   background: none;
 }
 
+.separador {
+  margin: 0.5em;
+}
+
 /*encabezado*/
 .head {
   display: flex;
@@ -131,24 +135,16 @@ p {
 }
 
 .contact-wrapper {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: 2rem;
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.5fr 1fr;
 }
 .contact-wrapper .contanc-form {
   background-color: rgba(34, 34, 34, 0.1333333333);
 }
-.contact-wrapper .contanc-form .separador {
-  margin: 0.3em;
-  padding: 0.3em;
-}
 .contact-wrapper .contact-form form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0;
   margin: 1rem;
   padding-top: 2rem;
 }
@@ -159,7 +155,6 @@ p {
 .contact-wrapper .contact-form form input,
 .contact-wrapper .contact-form form textarea {
   width: 100%;
-  padding: 0.7em;
   border: none;
   background: none;
   outline: none;

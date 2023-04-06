@@ -220,9 +220,10 @@ ul {
     padding-top: 3rem;
 }
 
-.separador {
-    margin: .3em;
-    padding: .3em;
+.separador { 
+        margin: .5em;
+        padding: .5em;
+    
 }
 
 .contact-info h3,

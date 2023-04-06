@@ -35,6 +35,9 @@ p{
 .btn:hover{
     background: none;
 }
+.separador{ 
+    margin: .5em;
+}
 
 /*encabezado*/
 .head{
@@ -132,25 +135,17 @@ p{
     padding-bottom: 3rem;
 }
 .contact-wrapper{
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: 2rem;
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2.5fr 1fr;
 
     .contanc-form {
         background-color: #2222;
-        .separador{
-            margin: .3em;
-            padding: .3em;
-        }
     }
     
     .contact-form form {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 0;
         margin: 1rem;
         padding-top: 2rem;
     }
@@ -164,7 +159,6 @@ p{
     .contact-form form input,
     .contact-form form textarea {
         width: 100%;
-        padding: .7em;
         border: none;
         background: none;
         outline: none;
@@ -192,6 +186,7 @@ p{
         background: none;
         border: 1px solid #9c27b0;
     }
+
     .contact-info {
         background-color: #000;
         margin-left: 1rem;
